@@ -3,7 +3,7 @@ while true; do
     echo "Starting Sqoop export..."
     sqoop export \
     --connect jdbc:mysql://localhost:3306/yelp_db \
-    --username root --password 'MakeAmericaGreatAgain@123' \
+    --username root --password '<yourSQLpassword>' \
     --table yelp_reviews_csv \
     --export-dir /yelp_data/flume_csv \
     --input-fields-terminated-by ',' \
