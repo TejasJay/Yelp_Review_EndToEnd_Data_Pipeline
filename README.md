@@ -1,5 +1,10 @@
 # **🚀 Yelp Reviews Data Pipeline: End-to-End **
 
+***
+Link to Dataset: 
+https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_review.json
+***
+
 ## **📌 Objective**
 
 This project processes Yelp review data by **streaming JSON data using Flume**, **storing it in HDFS**, **transforming it in Hive**, and **exporting it to MySQL using Sqoop**.
