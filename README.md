@@ -325,4 +325,3 @@ bash run_pipeline.sh
 | **Step 6** | Export Data to MySQL via Sqoop |
 | **Step 7** | Automate the Entire Pipeline |
 
-Now your **Yelp Reviews Data Pipeline** is fully **automated and scalable**! 🚀🎯
