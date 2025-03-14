@@ -1,0 +1,11 @@
+    sqoop export \
+    --connect jdbc:mysql://localhost:3306/yelp_db \
+    --username root --password 'MakeAmericaGreatAgain@123' \
+    --table yelp_reviews_csv \
+    --hcatalog-database yelp_db \
+    --hcatalog-table yelp_reviews_csv \
+    --num-mappers 0 \
+    --update-key review_id \
+    --update-mode allowinsert
+    --input-null-string '\\N' --input-null-non-string '\\N' \
+    --verbose
